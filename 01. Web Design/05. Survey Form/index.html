@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 id="title" class="text-center">Survey Form de Wassgoodiie </h1>
+        <p id="description" class="description text-center">
+          WOW \(^o^)/ Thanks For Making It This Far. You're Amazing, Please Take The Time To Help Increase Our Power Level Over 9000 !!
+        </p>
+      </header>
+      <form id="survey-form">
+        <div class="form-group">
+          <label id="name-label" for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="form-control"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="email-label" for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="form-control"
+            placeholder="Enter your Email"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="number-label" for="number"
+            >Age<span class="clue">(voluntary)</span></label
+          >
+          <input
+            type="number"
+            name="age"
+            id="number"
+            min="10"
+            max="99"
+            class="form-control"
+            placeholder="Age"
+          />
+        </div>
+        <div class="form-group">
+          <p>Which option best describes your current role ??</p>
+          <select id="dropdown" name="role" class="form-control" required>
+            <option disabled selected value>Select current role</option>
+            <option value="student">Student</option>
+            <option value="self">Self Taught</option>
+            <option value="job">Full Time Job</option>
+            <option value="learner">Full Time Learner</option>
+            <option value="youtube">Youtube Sent Me Here</option>
+            <option value="preferNo">I Would Rather Not To Say</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <p>I Would Recommend Wassgoodiie To A Buddy ??</p>
+          <label>
+            <input
+              name="user-recommend"
+              value="definitely"
+              type="radio"
+              class="input-radio"
+              checked
+            />🔥 100% 🔥</label
+          >
+          <label>
+            <input
+              name="user-recommend"
+              value="maybe"
+              type="radio"
+              class="input-radio"
+            />👀 I'll Think About It 👀 </label
+          >
+          <label>
+            <input
+              name="user-recommend"
+              value="maybe"
+              type="radio"
+              class="input-radio"
+            /> 💔 Probably Not 💔</label
+          >
+
+          <label
+            ><input
+              name="user-recommend"
+              value="not-sure"
+              type="radio"
+              class="input-radio"
+            />❌ Never ❌ </label
+          >
+        </div>
+
+        <div class="form-group">
+          <p>What's Your Favorite Category Of Wassgoodiie ??</p>
+          <select id="most-like" name="mostLike" class="form-control" required>
+            <option disabled selected value>Select an option</option>
+            <option value="youtube">Youtube Videos</option>
+            <option value="projects">Projects</option>
+            <option value="games">Online Muliplayer Games</option>
+            <option value="openSource">Open Source</option>
+            <option value="VR">Virtual Reality</option>
+            <option value="community">Community</option>
+            <option value="wumbo">Wumbo World</option>
+            <option value="challenges">Challenges</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <p>
+            What would you like to see improved ??
+            <span class="clue">( Click Any That Apply )</span>
+          </p>
+        
+          <label
+            ><input
+              name="prefer"
+              value="challenges"
+              type="checkbox"
+              class="input-checkbox"
+            />Challenges</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="gitter-help-rooms"
+              type="checkbox"
+              class="input-checkbox"
+            />Gitter help rooms</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="open-source-community"
+              type="checkbox"
+              class="input-checkbox"
+            />Open Source Community</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="videos"
+              type="checkbox"
+              class="input-checkbox"
+            />Videos</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="city-meetups"
+              type="checkbox"
+              class="input-checkbox"
+            />City Meetups</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="wiki"
+              type="checkbox"
+              class="input-checkbox"
+            />Wiki</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="data-visualization"
+              type="checkbox"
+              class="input-checkbox"
+            />Data Visualization</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="front-end-projects"
+              type="checkbox"
+              class="input-checkbox"
+            />Front-end Projects</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="forum"
+              type="checkbox"
+              class="input-checkbox"
+            />Forum</label
+          >
+          <label>
+            <input
+              name="prefer"
+              value="back-end-projects"
+              type="checkbox"
+              class="input-checkbox"
+            />Back-end Projects</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="additional-courses"
+              type="checkbox"
+              class="input-checkbox"
+            />Additional Courses</label
+          >
+        </div>
+
+        <div class="form-group">
+          <p>Any Statements Or Advice On How To Increase Our Power Level ??</p>
+          <textarea
+            id="comments"
+            class="input-textarea"
+            name="comment"
+            placeholder="Enter your comment here..."
+          ></textarea>
+        </div>
+
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
+
+
+
+
+<!-- <element></element> -->
+<!-- <element class="value here"></element> -->
+<!-- <element attribute="value here"></element> -->
+
+<!-- 
+    <!DOCTYPE html>
+    <html lang="en"></html>
+    <head></head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <body></body>
+    <div class="my-div"></div>
+    <main></main>
+    <h1></h1>
+    <h2></h2>
+    <h3></h3>
+    <h4></h4>
+    <h5></h5>
+    <h6></h6>
+    <section></section>
+    <p></p>
+    <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
+    <a></a>
+    I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+    <a href="https://freecatphotoapp.com">
+    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back.">
+    </a>
+    <ul></ul>
+    <li></li>
+    <form></form>
+    <figure></figure>
+    <figcaption></figcaption>
+    <em></em>
+    <strong></strong>
+    <fieldset></fieldset>
+    <legend></legend>
+    <label></label> 
+    <label for="loving"><input id="loving">
+    <label for="loving">Loving</label>
+    <label><input type="checkbox" required></label>
+    <label><input type="checkbox" checked></label>
+    <select></select>
+    <option></option>
+    <input id="loving" type="checkbox" name="personality" value="loving" checked> 
+    <input id="loving" type="checkbox" name="personality" value="loving" required>
+    <button type="submit">Submit</button>
+    <footer></footer>
+-->
+
+<!---->
+<!---->
