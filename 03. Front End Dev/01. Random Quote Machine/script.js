@@ -1,11 +1,6 @@
 const projectName = 'random-quote-machine';
 let quotesData;
 
-/*
-  Code by Gabriel Nunes
-  Modified by Todd Chaffee to use Camper gist for JSON Quote data.
-*/
-
 var colors = [
   '#16a085',
   '#27ae60',
@@ -91,7 +86,7 @@ function getQuote() {
     1000
   );
 }
-
+ 
 $(document).ready(function () {
   getQuotes().then(() => {
     getQuote();
