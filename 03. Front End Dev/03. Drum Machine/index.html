@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <title>FCC: Drum Machine</title>
+    </head>
+    <body>
+        <div id="root"><div class="inner-container" id="drum-machine"><div class="pad-bank"><div class="drum-pad" id="Heater-1" style="background-color: grey; margin-top: 10px; box-shadow: black 3px 3px 5px;"><audio class="clip" id="Q" src="https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3"></audio>Q</div><div class="drum-pad" id="Heater-2" style="background-color: grey; margin-top: 10px; box-shadow: black 3px 3px 5px;"><audio class="clip" id="W" src="https://s3.amazonaws.com/freecodecamp/drums/Heater-2.mp3"></audio>W</div><div class="drum-pad" id="Heater-3" style="background-color: grey; margin-top: 10px; box-shadow: black 3px 3px 5px;"><audio class="clip" id="E" src="https://s3.amazonaws.com/freecodecamp/drums/Heater-3.mp3"></audio>E</div><div class="drum-pad" id="Heater-4" style="background-color: grey; margin-top: 10px; box-shadow: black 3px 3px 5px;"><audio class="clip" id="A" src="https://s3.amazonaws.com/freecodecamp/drums/Heater-4_1.mp3"></audio>A</div><div class="drum-pad" id="Clap" style="background-color: grey; margin-top: 10px; box-shadow: black 3px 3px 5px;"><audio class="clip" id="S" src="https://s3.amazonaws.com/freecodecamp/drums/Heater-6.mp3"></audio>S</div><div class="drum-pad" id="Open-HH" style="background-color: grey; margin-top: 10px; box-shadow: black 3px 3px 5px;"><audio class="clip" id="D" src="https://s3.amazonaws.com/freecodecamp/drums/Dsc_Oh.mp3"></audio>D</div><div class="drum-pad" id="Kick-n'-Hat" style="background-color: grey; margin-top: 10px; box-shadow: black 3px 3px 5px;"><audio class="clip" id="Z" src="https://s3.amazonaws.com/freecodecamp/drums/Kick_n_Hat.mp3"></audio>Z</div><div class="drum-pad" id="Kick" style="background-color: grey; margin-top: 10px; box-shadow: black 3px 3px 5px;"><audio class="clip" id="X" src="https://s3.amazonaws.com/freecodecamp/drums/RP4_KICK_1.mp3"></audio>X</div><div class="drum-pad" id="Closed-HH" style="background-color: grey; margin-top: 10px; box-shadow: black 3px 3px 5px;"><audio class="clip" id="C" src="https://s3.amazonaws.com/freecodecamp/drums/Cev_H2.mp3"></audio>C</div></div><div class="logo"><div class="inner-logo ">FCC&nbsp;</div><i class="inner-logo fa fa-free-code-camp"></i></div><div class="controls-container"><div class="control"><p>Power</p><div class="select"><div class="inner" style="float: right;"></div></div></div><p id="display">&nbsp;</p><div class="volume-slider"><input max="1" min="0" step="0.01" type="range" value="0.3"></div><div class="control"><p>Bank</p><div class="select"><div class="inner" style="float: left;"></div></div></div></div></div></div>
+
+        <script crossorigin="" src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+        <script crossorigin="" src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+        <script src="bundle.js"></script>
+    </body>
+</html> 
